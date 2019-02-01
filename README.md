@@ -10,6 +10,8 @@ coming
 ```bash
 #alias gitlog to show more detail and pretty colors
 echo "alias gitlog=\"git log --graph --decorate --date=relative --format=format:'%C(bold blue)%H%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(red)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all\"" >> ~/.zshrc
+
+echo "alias sql=\"mysql --host='127.0.0.1' --user='root' --password='root'\"" >> ~/.zshrc
 ```
 
 ### Setup Github
